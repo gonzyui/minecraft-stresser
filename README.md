@@ -253,37 +253,6 @@ Log levels: DEBUG, INFO, WARNING, ERROR
 - Use smaller packet sizes for UDP attacks
 - Monitor system resources during testing
 
-## Project Structure
-
-```
-stresser/
-├── main.py              # Main entry point
-├── config.yaml          # Configuration file
-├── requirements.txt     # Python dependencies
-├── README.md            # This documentation
-├── test.py              # Test script
-├── stresser.log         # Log file (generated)
-└── src/                 # Source code modules
-    ├── __init__.py      # Package initialization
-    ├── config.py        # Configuration management
-    ├── logger.py        # Logging system
-    ├── attacks.py       # Attack implementations
-    ├── protocol.py      # Minecraft protocol handling
-    └── utils.py         # Utility functions
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
 ## License
 
-This project is for educational purposes only. Use at your own risk.
-
-## Disclaimer
-
-This tool is provided as-is for legitimate server testing purposes. The author is not responsible for misuse or any damages caused by this software.
+MIT — see [LICENSE](LICENSE).
