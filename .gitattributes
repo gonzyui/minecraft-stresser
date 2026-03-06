@@ -1,8 +1,8 @@
 * text=auto eol=lf
 
 *.py text diff=python linguist-detectable
-*.yaml text
-*.yml text
+*.yaml text linguist-detectable
+*.yml text linguist-detectable
 *.md text linguist-documentation
 *.txt text linguist-documentation
 
